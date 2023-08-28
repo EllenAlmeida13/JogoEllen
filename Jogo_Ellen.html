@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="bory-2">
+
+    <div class="principal-2">
+        <h1>Quiz - Conhecimentos gerais</h1>
+        <p>Esse teste irá testar seus conhecimentos gerais, não se preocupe se não souber responder, esse teste tem o objetivo de mostrar o que eu aprendi em JavaScript.</p>
+        <h6>Essas perguntas não são da minha autoria!!!</h6>
+        <p>By.: Ellen Almeida</p>
+        <br><br>
+
+        <div id="pergunta"></div>
+        <ol id="respostas" type="a"></ol>
+        <br>
+
+        <div class="btn-container">
+            <button type="button" id="voltar" class="btn" onclick="window.location.href='./index.html'">Voltar</button>
+            <button onclick="verificarResposta()" class="btn">Verificar</button>
+        </div>
+        
+        <div id="resultado"></div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--
+    <div id="pag" class="principal-2">
+        <h1>Quiz - Conhecimentos gerais</h1>
+        <p>Esse teste irá testar seus conhecimentos gerais, não se preocupe se não souber responder, esse teste tem o objetivo de mostrar o que eu aprendi em JavaScript.</p>
+        <h6>Essas perguntas não são da minha autoria!!!</h6>
+        <p>By.: Ellen Almeida</p>
+        <br>
+        <br>
+
+         Quiz, perguntas e respostas
+
+        <div id="quiz" class="geral">
+            <div class="geral-1" id="pergunta">
+                <h4>De que são constituídos os diamantes?</h4>
+                <ol type="a" id="opcoes">
+                    <li>Grafite</li>
+                    <li>Rênio</li>
+                    <li>Carbono</li> <!--True
+                    <li>Ósmio</li>
+                    <li>Bóhrio</li>
+                </ol>
+            </div>
+    
+            <div class="geral-2" id="pergunta">
+                <h4>Qual dessas aves não voam?</h4>
+                <ol type="a">
+                    <li>Pinguim</li> <!--True
+                    <li>Galinha</li>
+                    <li>Cegonha</li>
+                    <li>Pato</li>
+                    <li>Peru</li>
+                </ol>
+            </div>
+    
+            <div class="geral-3" id="pergunta">
+                <h4>Qual é respectivamente o animal terrestre mais lento e o mais veloz?</h4>
+                <ol type="a">
+                    <li>Bicho-preguiça e guepardo</li> <!--True
+                    <li>Tartaruga e leão</li>
+                    <li>Coala e cavalo</li>
+                    <li>Caracol e tubarão</li>
+                    <li>Bicho-preguiça e libélula</li>
+                </ol>
+            </div>
+    
+            <div class="geral-4" id="pergunta">
+                <h4>Qual destas, apesar do seu nome, não é considerada um tipo de força?</h4>
+                <ol type="a">
+                    <li>Força de atrito</li> 
+                    <li>Força peso</li>
+                    <li>Força centrípeta</li>
+                    <li>Força eletromotriz</li> <!--True
+                    <li>Força normal</li>
+                </ol>
+            </div>
+    
+            <div class="geral-5" id="pergunta">
+                <h4> Listras azuis e brancas intercaladas e um sol no canto superior esquerdo caracterizam a bandeira de qual país da América do Sul?</h4>
+                <ol type="a">
+                    <li>Argentina</li> 
+                    <li>Brasil</li>
+                    <li>Uruguai</li> <!--True
+                    <li>Namíbia</li> 
+                    <li>Japão</li>
+                </ol>
+            </div>
+        </div>
+
+    <br>
+
+        <button type="button" id="voltar" class="btn"> <a href="./index.html">Voltar</a> </button>
+        <button type="button" id="enviar" class="btn" onclick="mostrarResultado()">Verificar Resposta</button>
+
+        <div id="resultado" style="display: none;">
+            <h3>Resultado:</h3>
+            <p id="resultadoTexto"></p>
+        </div>
+    </div>
+    
+-->

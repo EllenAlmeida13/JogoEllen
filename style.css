@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+
+/*Edição da página inicial*/
+
+.container{
+    background-image: url(./pencil-5656084_1280.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+    width: 500px;
+    height: 300px;
+    background-color: #ce5cbb;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal p{
+    size: 200px;
+}
+
+.btn-1{
+    width: 60px;
+    height: 35px;
+    background-color: #a41c5e;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-1 a{
+    width: 50px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Edição da página do jogo*/
+
+.bory-2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./pencil-5656084_1280.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    left: 2%;
+    bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bory-2 h1, .bory-2 p, .bory-2 h6{
+    color: black;
+}
+
+
+.principal-2{
+    color: white;
+    background-color: #a1288c;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    /*padding: 30px;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;*/
+}
+
+/* Estilo para o botão de verificar */
+
+/*.principal-2 .btn{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}*/
+
+.botao-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4e1344;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-color: #b346db;
+    text-align: center;
+    /*width: 70px;
+    height: 50px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
+}
+
+.btn:hover {
+    background-color: #b346db;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo para as perguntas e respostas */
+#pergunta {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#respostas li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#respostas li:hover {
+    background-color: #4e1344;
+}
+
+#respostas li.selecionada {
+    background-color: #4e1344; /* Cor de fundo quando selecionada */
+    color: white; /* Cor do texto quando selecionada */
+    border: 1px solid #b346db; /* Borda quando selecionada */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra quando selecionada */
+}
+
+.selecionada {
+    background-color: rgb(233, 16, 12);
+}
+
+/*.geral{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}*/
